@@ -1,0 +1,16 @@
+/* index.css — Global styles */
+/* These three lines load all of Tailwind's utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Smooth transition for all interactive elements */
+* {
+  transition: all 0.15s ease-in-out;
+}
